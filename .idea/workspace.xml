@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76513b9e-0ea0-499b-8a89-98603711e7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/yeb-mail/src/main/resources/config/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/config/application-test.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="76513b9e-0ea0-499b-8a89-98603711e7ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JRebelWorkspace">
@@ -48,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -55,6 +59,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/yeb-mail/src/main/resources/config" />
@@ -189,8 +194,16 @@
       <workItem from="1650770427222" duration="1328000" />
       <workItem from="1651063877211" duration="2088000" />
       <workItem from="1651113605290" duration="24779000" />
-      <workItem from="1651563600611" duration="11115000" />
+      <workItem from="1651563600611" duration="11566000" />
     </task>
+    <task id="LOCAL-00001" summary="one">
+      <created>1651582933873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651582933873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,11 +214,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="one" />
+    <option name="LAST_COMMIT_MESSAGE" value="one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
