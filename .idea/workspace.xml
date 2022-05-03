@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76513b9e-0ea0-499b-8a89-98603711e7ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/yeb-mail/src/main/resources/config/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/config/application-test.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\program\maven\apache-maven-3.8.2-bin\apache-maven-3.8.2\maven-repo" />
+        <option name="mavenHome" value="F:\program\maven\apache-maven-3.8.2-bin\apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="F:\program\maven\apache-maven-3.8.2-bin\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="27k6cQOykChJtClruCOsrLlMVhF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yeb-mail/src/main/resources/config" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17675781" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\program\ProjectTraining\yeb_back\yeb-mail\src\main\resources\config" />
+      <recent name="F:\program\ProjectTraining\yeb_back\yeb-server\src\main\resources\config" />
+      <recent name="F:\program\ProjectTraining\yeb_back\yeb-server\src\main\resources" />
+      <recent name="F:\program\ProjectTraining\yeb_back\yeb-mail\src\main\resources" />
+      <recent name="F:\program\ProjectTraining\yeb_back\yeb-server\src\main\java\com\hang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\program\ProjectTraining\yeb_back\yeb-mail\src\main\resources\config" />
+      <recent name="F:\program\ProjectTraining\yeb_back\yeb-server\src\main\resources\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hang" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hang.mail" />
+      <recent name="com.hang.config.captcha" />
+      <recent name="com.hang.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YebApplication (1)">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hang.generator.CodeGenerator" />
+      <module name="yeb-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hang.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yeb-mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hang.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hang.mail.MailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yeb-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hang.YebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="Spring Boot.MailApplication" />
+      <item itemvalue="Spring Boot.YebApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.YebApplication (1)" />
+        <item itemvalue="Spring Boot.MailApplication" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76513b9e-0ea0-499b-8a89-98603711e7ee" name="Default Changelist" comment="" />
+      <created>1649851816481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649851816481</updated>
+      <workItem from="1649851817752" duration="3455000" />
+      <workItem from="1649855542085" duration="2025000" />
+      <workItem from="1649911924096" duration="8548000" />
+      <workItem from="1650025567844" duration="5576000" />
+      <workItem from="1650074205929" duration="20111000" />
+      <workItem from="1650356287922" duration="14635000" />
+      <workItem from="1650444826276" duration="605000" />
+      <workItem from="1650454229309" duration="6029000" />
+      <workItem from="1650513466906" duration="7562000" />
+      <workItem from="1650531914034" duration="9264000" />
+      <workItem from="1650627455280" duration="327000" />
+      <workItem from="1650627818339" duration="1054000" />
+      <workItem from="1650690901544" duration="829000" />
+      <workItem from="1650770427222" duration="1328000" />
+      <workItem from="1651063877211" duration="2088000" />
+      <workItem from="1651113605290" duration="24779000" />
+      <workItem from="1651563600611" duration="11115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/yeb-generator/src/main/java/com/hang/mapper/AdminMapper.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
