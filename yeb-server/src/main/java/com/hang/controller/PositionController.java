@@ -33,7 +33,7 @@ public class PositionController {
     }
 
     @ApiOperation("添加职位信息")
-    @PostMapping
+    @PostMapping("/")
     public RespBean addPosition(@RequestBody Position position) {
         position.setCreateDate(LocalDateTime.now());
         if (positionService.save(position)) {

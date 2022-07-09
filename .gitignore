@@ -23,3 +23,6 @@
 hs_err_pid*
 target/
 *.yml
+/.idea/
+/.idea/
+/.idea/
