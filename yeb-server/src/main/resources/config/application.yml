@@ -75,6 +75,12 @@ mybatis-plus:
 logging:
   level:
     com.hang.server.mapper: debug
+#mybatis 分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 
 
 jwt:

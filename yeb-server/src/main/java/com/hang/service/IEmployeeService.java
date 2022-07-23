@@ -28,6 +28,8 @@ public interface IEmployeeService extends IService<Employee> {
      */
     RespPageBean getEmployeeByPage(Integer currentPage, Integer size, Employee employee, LocalDate[] beginDateScope);
 
+    int getCount(Employee employee, LocalDate[] beginDateScope);
+
     /**
      * 获取工号
      * @return

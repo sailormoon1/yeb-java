@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.github.pagehelper.PageHelper;
 import com.hang.mapper.EmployeeMapper;
 import com.hang.mapper.MailLogMapper;
 import com.hang.pojo.*;
@@ -50,9 +51,16 @@ public class EmployeeServiceImpl extends ServiceImpl<EmployeeMapper, Employee> i
     @Override
     public RespPageBean getEmployeeByPage(Integer currentPage, Integer size, Employee employee, LocalDate[] beginDateScope) {
         //开启分页
-        Page<Employee> page = new Page<>(currentPage, size);
-        IPage<Employee> employeeByPage = employeeMapper.getEmployeeByPage(page, employee, beginDateScope);
-        return new RespPageBean(employeeByPage.getTotal(), employeeByPage.getRecords());
+//        Page<Employee> page = new Page<>(currentPage, size);
+        PageHelper.startPage(currentPage, size);
+        List<Employee> employeeByPage = employeeMapper.getEmployeeByParams( employee, beginDateScope);
+        int total = employeeMapper.getCount(employee,beginDateScope);
+        return new RespPageBean(Long.valueOf(total), employeeByPage);
+    }
+
+    @Override
+    public int getCount(Employee employee, LocalDate[] beginDateScope) {
+        return employeeMapper.getCount(employee,beginDateScope);
     }
 
     /**

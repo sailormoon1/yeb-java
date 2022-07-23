@@ -28,7 +28,7 @@ public interface EmployeeMapper extends BaseMapper<Employee> {
      * @param beginDateScope
      */
     IPage<Employee> getEmployeeByPage(Page<Employee> page, @Param("employee") Employee employee, @Param("beginDateScope") LocalDate[] beginDateScope);
-
+    int getCount(@Param("employee") Employee employee, @Param("beginDateScope") LocalDate[] beginDateScope);
 
     /**
      * 查询员工
@@ -36,6 +36,13 @@ public interface EmployeeMapper extends BaseMapper<Employee> {
      * @return
      */
     List<Employee> getEmployee(Integer id);
+
+    /**
+     * 查询员工
+     * @param id
+     * @return
+     */
+    List<Employee> getEmployeeByParams(@Param("employee") Employee employee, @Param("beginDateScope") LocalDate[] beginDateScope);
 
     /**
      * 获取所有员工账套
